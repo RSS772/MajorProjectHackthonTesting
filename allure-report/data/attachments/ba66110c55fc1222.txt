@@ -1,0 +1,3 @@
+Navigating to the URL
+Filling location with: Kerala
+Filling hospital type: Hospital
