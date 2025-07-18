@@ -99,7 +99,7 @@ export class HospitalPage {
         await this.page.waitForLoadState('domcontentloaded');
        
         const firstHospital = await this.page.locator("(//div[@class='c-estb-card'])[1]");
-         await firstHospital.waitFor({state : 'visible', timeout:1500});
+         await firstHospital.waitFor({state : 'visible'});
   
         await firstHospital.click();
        
