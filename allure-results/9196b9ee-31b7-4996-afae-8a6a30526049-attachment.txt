@@ -1,0 +1,2 @@
+Navigating to the URL
+Captured Error Message: We couldn't find any doctors for you
