@@ -1,0 +1,15 @@
+Navigating to the URL
+Filling location with: Chennai
+Filling hospital type: Hospital
+Doctors in first hospital: [
+  'Dr. Rashmi S R',
+  'Dr. Arunima Halder',
+  'Dr. Bhakyalakshmi M',
+  'Dr. Tallam Kartik Shrinivas',
+  'Dr. Leena',
+  'Dr. Anand Arumugam',
+  'Dr. S L Sagar Reddy',
+  'Dr. Gurudutta A V',
+  'Dr. Kiran Veerendra',
+  'Dr. Basawantrao Malipatil'
+]
