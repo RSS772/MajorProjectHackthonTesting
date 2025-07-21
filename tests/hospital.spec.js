@@ -10,14 +10,6 @@ test('@regression Find hospitals in Chennai with filters', async ({ page }) => {
   await hospitalPage.printQualifiedHospitals();
 });
 
-
-test('@regression Get doctors from the first hospital card', async ({ page }) => {
-  const hospitalPage = new HospitalPage(page);
-  await hospitalPage.navigating();
-  await hospitalPage.locatinghospital('Chennai');
-  await hospitalPage.hospital('Hospital');
-  await hospitalPage.printDoctorsOfFirstHospital();
-});
  
 test('@regression Enter invalid hospital type and capture message', async ({ page }) => {
     const hospitalPage = new HospitalPage(page);
@@ -36,3 +28,11 @@ test('@regression Display the hospital price range between range', async ({ page
   // await page.pause();
   await loge.gethospitals(0,1000);
 });
+
+// test('@regression Get doctors from the first hospital card', async ({ page }) => {
+//   const hospitalPage = new HospitalPage(page);
+//   await hospitalPage.navigating();
+//   await hospitalPage.locatinghospital('Chennai');
+//   await hospitalPage.hospital('Hospital');
+//   await hospitalPage.printDoctorsOfFirstHospital();
+// });

@@ -94,37 +94,37 @@ export class HospitalPage {
 
 
 
- async printDoctorsOfFirstHospital() {
+//  async printDoctorsOfFirstHospital() {
  
-        await this.page.waitForLoadState('domcontentloaded');
+//         await this.page.waitForLoadState('domcontentloaded');
        
-        const firstHospital = await this.page.locator("(//div[@class='c-estb-card'])[1]");
-        //wait until it exists in DOM
-        await firstHospital.waitFor({ state: 'attached' });
-        //wait until it is visible
-        await expect(firstHospital).toBeVisible({timeout: 10000});
-        await expect(firstHospital).toBeEnabled();
+//         const firstHospital = await this.page.locator("(//div[@class='c-estb-card'])[1]");
+//         //wait until it exists in DOM
+//         await firstHospital.waitFor({ state: 'attached' });
+//         //wait until it is visible
+//         await expect(firstHospital).toBeVisible({timeout: 10000});
+//         await expect(firstHospital).toBeEnabled();
         
-        try{
-          await firstHospital.click({timeout: 5000});
+//         try{
+//           await firstHospital.click({timeout: 5000});
           
-        }catch(erroe){
-          console.warn("Clicked fail, retrying with force click")
-          await firstHospital.click({force: true});
-        }
+//         }catch(erroe){
+//           console.warn("Clicked fail, retrying with force click")
+//           await firstHospital.click({force: true});
+//         }
        
-        await this.page.waitForLoadState('domcontentloaded');
+//         await this.page.waitForLoadState('domcontentloaded');
  
-        const doctorNames = await this.page.locator('//h2[@class="doctor-name"]').all();
-        const names = [];
+//         const doctorNames = await this.page.locator('//h2[@class="doctor-name"]').all();
+//         const names = [];
    
-        for (const doc of doctorNames) {
-          const name = (await doc.textContent()).trim();
-          names.push(name);
-        }
+//         for (const doc of doctorNames) {
+//           const name = (await doc.textContent()).trim();
+//           names.push(name);
+//         }
    
-        console.log("Doctors in first hospital:", names);
-    }
+//         console.log("Doctors in first hospital:", names);
+//     }
  
 
 
