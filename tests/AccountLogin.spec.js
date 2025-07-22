@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test.afterEach(async ({ page }) => {
-  console.log('Test finished.');
+  console.log('Test finished successfully.');
 });
 
 //

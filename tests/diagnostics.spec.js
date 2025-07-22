@@ -25,8 +25,6 @@ test('@sanity Check for presence of popular cities', async ({ page }) => {
   await diagnosticsPage.goto();
   const cities = await diagnosticsPage.getCityList();
 
-  // expect(cities.length).toBeGreaterThan(0);
-
   const mustInclude = ['Mumbai', 'Delhi', 'Chennai'];
   mustInclude.forEach(city => expect(cities).toContain(city));
 });

@@ -1,0 +1,3 @@
+Navigating to the URL
+Filling location with: Chennai
+Filling hospital type: Hospital
