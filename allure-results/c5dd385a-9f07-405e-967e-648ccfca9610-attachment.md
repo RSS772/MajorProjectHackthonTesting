@@ -1,0 +1,359 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: /
+- text: Help
+- img "image"
+- textbox "Select any city or locality": Bangalore
+- text: "|"
+- textbox "Search for Tests, Packages and Profiles"
+- text: Cart Young Indian Health Checkup Includes 84 tests Ideal for individuals aged 15-40 yrs Know More
+- img "image"
+- text: Need help with booking your test? Our experts are here to help you
+- img "image"
+- text: +91 8045684087
+- heading "Top Booked Diagnostic Tests" [level=2]
+- link "Thyroid Profile Known as Thyroid Profile Total Blood E-Reports on same day ₹500":
+  - /url: /tests/thyroid-profile-total-blood/p?city=bangalore
+- text: ADD
+- link "Complete Blood Count Known as Complete Blood Count Automated Blood E-Reports on same day ₹300":
+  - /url: /tests/complete-blood-count-automated-blood/p?city=bangalore
+- text: ADD
+- link "Lipid Profile Known as Lipid Profile Blood E-Reports on same day ₹434":
+  - /url: /tests/lipid-profile-blood/p?city=bangalore
+- text: ADD
+- link "Liver Function Test Known as Liver Function Tests Blood E-Reports on same day ₹673":
+  - /url: /tests/liver-function-tests-blood/p?city=bangalore
+- text: ADD
+- link "HbA1c Known as Glycosylated Haemoglobin Blood E-Reports on same day ₹300":
+  - /url: /tests/glycosylated-haemoglobin-blood/p?city=bangalore
+- text: ADD
+- link "Vitamin B 12 Known as Vitamin B12 Conventional Blood E-Reports on same day ₹490":
+  - /url: /tests/vitamin-b12-conventional-blood/p?city=bangalore
+- text: ADD
+- heading "Find Tests by Health Concern" [level=2]
+- link "Fever":
+  - /url: /health-checkup-packages/fever-checkup
+- link "Diabetes":
+  - /url: /health-checkup-packages/diabetes-checkup
+- link "Skin":
+  - /url: /health-checkup-packages/skin-care-checkups
+- link "Kidney":
+  - /url: /health-checkup-packages/kidney-urine-checkups
+- link "Digestion":
+  - /url: /health-checkup-packages/stomach-digestion-checkups
+- link "Cancer":
+  - /url: /health-checkup-packages/cancer-screening-health-checkup
+- heading "Popular Health Checkup Packages" [level=2]
+- text: Featured Checkups Women's Health Men's Health
+- link "Vitamin Deficiency Health Checkup Ideal for individuals aged 11 - 80 years 5 tests included":
+  - /url: /health-checkup-packages/vitamin-deficiency-health-checkup/p?tag_id=6&city=bangalore
+  - heading "Vitamin Deficiency Health Checkup" [level=3]
+  - paragraph: Ideal for individuals aged 11 - 80 years
+  - heading "5 tests included" [level=4]
+- contentinfo:
+  - text: ₹899₹120025% off
+  - link "Book Now":
+    - /url: /labs/bangalore/practo-master-lab-arekere/user-details?package_id=2647&tag_id=6&city=bangalore
+- link "Young Indian Health Checkup - Advanced Ideal for individuals aged 30 - 50 years 96 tests included":
+  - /url: /health-checkup-packages/young-indian-health-checkup-advanced/p?tag_id=6&city=bangalore
+  - heading "Young Indian Health Checkup - Advanced" [level=3]
+  - paragraph: Ideal for individuals aged 30 - 50 years
+  - heading "96 tests included" [level=4]
+- contentinfo:
+  - text: ₹2599₹340024% off
+  - link "Book Now":
+    - /url: /labs/bangalore/practo-master-lab-arekere/user-details?package_id=2705&tag_id=6&city=bangalore
+- link "Comprehensive Full Body Check Ideal for individuals aged 18 - 100 years 106 tests included":
+  - /url: /health-checkup-packages/comprehensive-full-body-check/p?tag_id=6&city=bangalore
+  - heading "Comprehensive Full Body Check" [level=3]
+  - paragraph: Ideal for individuals aged 18 - 100 years
+  - heading "106 tests included" [level=4]
+- contentinfo:
+  - text: ₹3499₹450022% off
+  - link "Book Now":
+    - /url: /labs/bangalore/practo-master-lab-arekere/user-details?package_id=2718&tag_id=6&city=bangalore
+- heading "Our Partner Labs" [level=2]
+- text: Practo Labs Your tests will be conducted in one of our partner labs to ensure highest accuracy of your reports.
+- heading "Top booked Medical tests" [level=2]
+- text: Get 10% Health Cashback* T&C
+- img
+- heading "Lipid Profile" [level=3]:
+  - link "Lipid Profile":
+    - /url: /tests/lipid-profile-blood/p?city=bangalore
+- link "Ldl Cholesterol Test Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood":
+  - /url: /tests/cholesterol-ldl-enzymatic-colorimetric-method-blood/p?city=bangalore
+- link "Hdl Cholesterol Test Also known as Cholesterol Hdl Enzymatic Colorimetric Method Blood":
+  - /url: /tests/cholesterol-hdl-enzymatic-colorimetric-method-blood/p?city=bangalore
+- link "Vldl Cholesterol Test Also known as Vldl Cholesterol Blood":
+  - /url: /tests/cholesterol-vldl-enzymatic-colorimetric-method-blood/p?city=bangalore
+- link "Total Cholesterol Test Also known as Cholesterol Test":
+  - /url: /tests/cholesterol-total-enzymatic-colorimetric-method-blood/p?city=bangalore
+- link "Triglycerides Blood Test Also known as Triglycerides Blood":
+  - /url: /tests/triglycerides-blood/p?city=bangalore
+- link "Book Now":
+  - /url: /tests/lipid-profile-blood/p?city=bangalore#addItem
+- img
+- heading "Liver Profile" [level=3]:
+  - link "Liver Profile":
+    - /url: /tests/liver-function-tests-blood/p?city=bangalore
+- link "Gamma Glutamyl Transferase Also known as GGT":
+  - /url: /tests/gamma-glutamyl-transpeptidase-blood/p?city=bangalore
+- link "Total Bilirubin Also known as Bilirubin Total Blood":
+  - /url: /tests/bilirubin-total-blood/p?city=bangalore
+- link "Ast Test Also known as SGOT":
+  - /url: /tests/aspartate-aminotransferase-automated-blood/p?city=bangalore
+- link "Alp Test Also known as Alkaline Phosphatase":
+  - /url: /tests/alkaline-phosphatase-blood/p?city=bangalore
+- link "Albumin Test Also known as Albumin Blood":
+  - /url: /tests/albumin-blood/p?city=bangalore
+- link "Book Now":
+  - /url: /tests/liver-function-tests-blood/p?city=bangalore#addItem
+- img
+- heading "Blood Sugar" [level=3]:
+  - link "Blood Sugar":
+    - /url: /tests/glycosylated-haemoglobin-blood/p?city=bangalore
+- link "Hba1C Test Also known as Glycosylated Haemoglobin Blood":
+  - /url: /tests/glycosylated-haemoglobin-blood/p?city=bangalore
+- link "Fasting Blood Sugar Test Also known as Glucose Fasting Blood":
+  - /url: /tests/glucose-fasting-blood/p?city=bangalore
+- link "Random Blood Sugar Test Also known as RBS":
+  - /url: /tests/glucose-random-blood/p?city=bangalore
+- link "Blood Sugar Levels After Eating Also known as Post Prandial Blood Sugar":
+  - /url: /tests/glucose-post-prandial-blood/p?city=bangalore
+- link "Creatinine Test Also known as Creatinine Conventional Blood":
+  - /url: /tests/creatinine-conventional-blood/p?city=bangalore
+- link "Book Now":
+  - /url: /tests/glycosylated-haemoglobin-blood/p?city=bangalore#addItem
+- text: Why book with us? Home sample collection for FREE A certified professional will collect your sample from your preferred location Get digital report within a day Our labs ensure turn-around-time of 24 hours from specimen pickup Offers and affordable prices Get great discounts and offers on tests and packages. How it works? Search for tests and packages and seamlessly book a home sample collection. We will send a certified professional to your place to assist you with the sample collection We will email you the reports. You can also access your reports within your account on the Practo app We do great 15 Million users every month Trusted by 2,00,000 healthcare professionals We serve in 9 cities
+- heading "Thousands of Happy Customers" [level=2]
+- text: “Very professional phlebo. Excellent job in collecting the sample. No pain at all. Got my report also within 24 hours. Malathi Ganapathy
+- list:
+  - listitem:
+    - button "1"
+  - listitem:
+    - button "2"
+  - listitem:
+    - button "3"
+- text: Download the Practo app Your home for health is one tap away. Book appointments, Order health products, Consult with a doctor online, Book health checkups, store health records & read health tips. Send the link to download the app +91
+- textbox "Enter phone number"
+- text: Send app link
+- link:
+  - /url: https://app.appsflyer.com/id953772015?pid=web&c=homepage
+- paragraph:
+  - text: Book
+  - strong: Diagnostic tests
+  - text: near you with Practo Associate Labs, your online lab test service provider for diagnostic, medical tests and health checkup packages
+- paragraph:
+  - text: Get all the benefits of
+  - strong: diagnostic centre
+  - text: and
+  - strong: pathology labs
+  - text: right from the comfort of your home. With a phlebotomy team to ensure speedy home sample collection, and diagnostic services ranging from individual tests to complete health checkup packages for Men, Women, Senior Citizens & Corporates. Practo Associate Labs takes care of all your diagnostic needs.
+- paragraph:
+  - strong: "Wide Selection of Tests:"
+  - text: Practo Associate Labs covers a wide array of tests like
+  - strong: blood sugar tests, thyroid tests, pregnancy tests, allergy tests
+  - text: ", lipid profile, liver profile, platelet count, VDRL test, vitamin B12 deficiency test and more. Get details of all these tests such as blood test cost, when to take the tests, why it is required, who should take the test and what to do before taking the blood tests at home."
+- paragraph:
+  - strong: "Sample Collection at Home:"
+  - text: Book blood tests online from your home and our expert team of Practo Associate Labs technicians will arrive at the pre-scheduled time to pick up your sample. Once you get a
+  - strong: diagnostic test
+  - text: done, you will receive your reports online.
+- paragraph:
+  - strong: "Digital Reports:"
+  - text: Get all your diagnostic reports emailed directly to you with detailed
+  - strong: blood test
+  - text: reports & secure storage to easily access your medical records online.
+- paragraph:
+  - strong: "Full Body Health Checkup:"
+  - text: Keep your health and well being in check with exclusive Health Checkup Packages like Men’s Health Package, Women’s Health Package, Vitamin Package, Health Package for Corporates, Diabetes Packages, Packages for Senior Citizens & more. Get full details of all tests available in a package when booking
+  - strong: online pathology tests.
+- paragraph:
+  - strong: "Practo Associate Labs provides services to the following cities:"
+  - text: Bangalore, Hyderabad, Chennai, Mumbai, Delhi, Pune, Kolkata, Navi Mumbai, Thane, Gurgaon, Noida, Ahmedabad, Chandigarh, Ghaziabad, Indore, Jaipur, Lucknow, Patna, Ernakulam, Bhubaneswar and Coimbatore.
+- text: This site is protected by reCAPTCHA and the Google
+- link "Privacy Policy":
+  - /url: https://policies.google.com/privacy
+- text: and
+- link "Terms of Service":
+  - /url: https://policies.google.com/terms
+- text: apply.
+- contentinfo:
+  - list:
+    - listitem:
+      - heading "Practo" [level=6]
+    - listitem:
+      - link "About":
+        - /url: https://www.practo.com/company/about
+    - listitem:
+      - link "Blog":
+        - /url: https://blog.practo.com/
+    - listitem:
+      - link "Careers":
+        - /url: https://www.practo.com/company/careers
+    - listitem:
+      - link "Press":
+        - /url: https://www.practo.com/company/press
+    - listitem:
+      - link "Contact":
+        - /url: https://www.practo.com/company/contact
+  - list:
+    - listitem:
+      - heading "For patients" [level=6]
+    - listitem:
+      - link "Ask free health questions":
+        - /url: /consult/new_question?source=Footer-AskFreeQuestion
+    - listitem:
+      - link "Search for doctors":
+        - /url: /bangalore/doctors
+    - listitem:
+      - link "Search for clinics":
+        - /url: /bangalore/clinics
+    - listitem:
+      - link "Search for hospitals":
+        - /url: /bangalore/hospitals
+    - listitem:
+      - link "Book Diagnostic Tests":
+        - /url: /tests
+    - listitem:
+      - link "Read health articles":
+        - /url: /healthfeed
+    - listitem:
+      - link "Read about medicines":
+        - /url: /medicine-info
+    - listitem:
+      - link "Consult a doctor":
+        - /url: /consult?source=Footer-ConsultFeed
+    - listitem:
+      - link "Order medicines":
+        - /url: /order
+    - listitem:
+      - link "Practo Drive":
+        - /url: /drive
+    - listitem:
+      - link "Health app":
+        - /url: /health-app
+    - listitem:
+      - link "Book Full Body Checkups":
+        - /url: /health-checkup-packages/master
+    - listitem:
+      - link "Practo Plus":
+        - /url: /plus?utm_source=dx&utm_medium=web
+  - list:
+    - listitem:
+      - heading "For doctors" [level=6]
+    - listitem:
+      - link "Practo Consult":
+        - /url: /for-doctors/consult
+    - listitem:
+      - link "Practo Health Feed":
+        - /url: /for-doctors/health-feed
+    - listitem:
+      - link "Practo Profile":
+        - /url: /for-doctors/profile
+    - listitem:
+      - heading "For clinics" [level=6]
+    - listitem:
+      - link "Ray by Practo":
+        - /url: /providers/clinics/ray
+    - listitem:
+      - link "Practo Reach":
+        - /url: /providers/clinics/reach
+    - listitem:
+      - link "Ray Tab":
+        - /url: /providers/clinics/ray#raytab
+    - listitem:
+      - link "Practo Pro":
+        - /url: /practo-pro-app
+  - list:
+    - listitem:
+      - heading "For hospitals" [level=6]
+    - listitem:
+      - link "Insta by Practo":
+        - /url: /providers/hospitals/insta
+    - listitem:
+      - link "Qikwell by Practo":
+        - /url: /providers/hospitals/qikwell
+    - listitem:
+      - link "Practo Profile":
+        - /url: /providers/hospitals/profile
+    - listitem:
+      - link "Practo Reach":
+        - /url: /providers/hospitals/reach
+  - list:
+    - listitem:
+      - heading "More" [level=6]
+    - listitem:
+      - link "Help":
+        - /url: https://help.practo.com/
+    - listitem:
+      - link "Developers":
+        - /url: https://developers.practo.com/
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /company/privacy
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: /company/terms
+    - listitem:
+      - link "Subscribers":
+        - /url: /company/subscribers
+    - listitem:
+      - link "Healthcare directory":
+        - /url: /sitemap
+    - listitem:
+      - link "Practo Health Wiki":
+        - /url: /health-wiki
+  - list:
+    - listitem:
+      - heading "Social" [level=6]
+    - listitem:
+      - link "Facebook":
+        - /url: https://facebook.com/practo
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/Practo
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/practo-technologies-pvt-ltd
+    - listitem:
+      - link "Youtube":
+        - /url: https://youtube.com/user/PractoSupport
+    - listitem:
+      - link "Github":
+        - /url: https://github.com/practo
+  - img "Practo"
+  - text: Copyright © 2017, Practo. All rights reserved.
+- dialog "citySelector":
+  - text: Select a city
+  - textbox "Search for city"
+  - text: TOP CITIES
+  - list:
+    - listitem:
+      - img "image"
+      - text: Bangalore
+    - listitem:
+      - img "image"
+      - text: Delhi
+    - listitem:
+      - img "image"
+      - text: Mumbai
+    - listitem:
+      - img "image"
+      - text: Chennai
+    - listitem:
+      - img "image"
+      - text: Hyderabad
+    - listitem:
+      - img "image"
+      - text: Kolkata
+    - listitem:
+      - img "image"
+      - text: Pune
+    - listitem:
+      - img "image"
+      - text: Ahmedabad
+  - text: ALL CITIES Agartala Agra Ahmedabad Ajmer Aligarh Allahabad Alwar Ambala Amravati Amritsar Amroha Aurangabad Azamgarh Bangalore Bardhaman Bareilly Begusarai Belgaum Bharuch Bhiwani Bhopal Bhubaneswar Bijnor Bikaner Bilaspur Chandigarh Chennai Coimbatore Cuttack Darbhanga Dehradun Delhi Deoria Dhanbad Dibrugarh Durgapur Ernakulam Faizabad Gandhinagar Gaya Gorakhpur Guntur Gurugram Guwahati Gwalior Haridwar Hisar Hooghly Hoshiarpur Howrah Hyderabad Indore Jabalpur Jaipur Jalandhar Jammu Jamshedpur Jhajjar Jodhpur Kaithal Kanpur Karimnagar Karnal Kohlapur Kolkata Kota Krishna Kurnool Lucknow Ludhiana Madurai Mathura Medak Meerut Mohali Moradabad Mumbai Muzaffarnagar Muzaffarpur Mysore Nagpur Nashik Navi Mumbai Nellore Nizamabad Noida North Goa Panchkula Panipat Pathankot Patiala Patna Pondicherry Pune Purnia Raigarh Raipur Rajkot Rampur Ranchi Rangareddy Rewa Rohtak Sagar Saharanpur Saidpur Ghazipur District Salem Sirsa Solapur Sonipat South Goa Surat Thane Tiruchirapalli Udaipur Unnao Vadodara Varanasi Vellore Vijayawada Warangal Yamuna Nagar Yamunanagar
+```

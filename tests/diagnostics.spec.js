@@ -40,3 +40,5 @@ test('@sanity Check for presence of popular cities', async ({ page }) => {
   mustInclude.forEach(city => expect(cities).toContain(city));
 });
 
+
+

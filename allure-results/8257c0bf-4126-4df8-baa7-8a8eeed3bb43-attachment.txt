@@ -1,0 +1,10 @@
+Cities: [
+  '\nBangalore\n',
+  '\nDelhi\n',
+  '\nMumbai\n',
+  '\nChennai\n',
+  '\nHyderabad\n',
+  '\nKolkata\n',
+  '\nPune\n',
+  '\nAhmedabad\n'
+]

@@ -12,6 +12,7 @@ test('@sanity Url contains corporate',async({page})=>{
  
 });
 
+
 test('@sanity Validate form does not allow submission with invalid data', async ({ page }) => {
   const wellnessPage = new CorporateWellnessPage(page);
   await wellnessPage.goto();

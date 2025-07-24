@@ -39,6 +39,9 @@ test.afterEach(async ({ page }) => {
     expect(errorMessage).toContain('Password field cannot be empty');
   })
 
+
+  
+
   test('@regression Empty login input error messages', async () => {
     await accountLogin.login(loginData.emptyBoth.username, loginData.emptyBoth.password);
     const usernameError = await accountLogin.getUsernameErrorText();

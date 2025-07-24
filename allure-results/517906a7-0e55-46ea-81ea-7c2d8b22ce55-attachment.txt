@@ -1,0 +1,1 @@
+Button was disabled — invalid input correctly prevented submission.
