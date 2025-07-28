@@ -1,2 +1,0 @@
-Error navigating to diagnostics page:
-Error retrieving city list:

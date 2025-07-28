@@ -1,9 +1,0 @@
-Navigating to the URL
-Filling location with: Kerala
-Filling hospital type: Hospital
-Hospital cards found: 10
-Hospitals with rate in range 0 - 1000: [
-  'MIOT International Hospital',
-  'Parampara Fertility & Gynaec Centre',
-  'Motherhood Hospital'
-]
